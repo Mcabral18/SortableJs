@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.drop_list, .drop_content {
+    display: grid;
+}
+
+.drop_list{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.drop_content {
+    padding: 2rem;
+    row-gap: 1rem;
+    box-shadow: 4px 4px 16px #c0bebe;
+}
+
+.drop_card {
+    text-align: center;
+    width: 22rem;
+    padding: 1rem;
+    background-color: #F8F8FC;
+    box-shadow: 4px 4px 10px #E1E1E1, -2px -2px 10px #FFF;
+}
+
+.drop_name {
+    color: #272A3A;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.drop_info {
+    color: #8A8EAA;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Class name for the chosen item */
+.sortable-chosen{
+    box-shadow: 8px 8px 32px #E1E1E1;
+  }
+
+  /* Class name for the dragging item */
+  .sortable-drag{
+    opacity: 0;
+  }
