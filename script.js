@@ -1,9 +1,6 @@
-setTimeout(function () {
-  alert("Welcome !!");
-}, 1000);
 
 // setTimeout(function () {
-//   window.onload(alert("ola"))
+//   window.onload(alert("welcome"))
 // });
 
 /*===== DRAG and DROP =====*/
